@@ -97,3 +97,9 @@ let teacher=true
 let student= false
 console.log(admin||student);
 console.log(admin||teacher);
+
+
+let a=11
+console.log(a++);
+console.log(++a);
+console.log(a);
