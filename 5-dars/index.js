@@ -18,19 +18,19 @@
 //     }
 
 // }
-let user = "shoxpolat"
+// let user = "shoxpolat"
 
-if(user == "shoxpolat"){
+// if(user == "shoxpolat"){
 
-    printFullname("Shohrux","Abdusamatov")
+//     printFullname("Shohrux","Abdusamatov")
     
-}
+// }
 
-if(user == "durdona"){
+// if(user == "durdona"){
 
-    printFullname("Durdona", "Abdusamatova")
+//     printFullname("Durdona", "Abdusamatova")
 
-}
+// }
 
 
 function printFullname(name,surname){
@@ -39,8 +39,16 @@ function printFullname(name,surname){
 }
 
 
+function add(num1){
 
+    let sum = ((num1+23) * 123 + 1234)/500
+    return sum
 
+}
+
+console.log(add(12));
+console.log(add(10));
+console.log(add(22));
 
 
 
